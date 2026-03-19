@@ -1,11 +1,6 @@
-{
-  "manifest_version": 3,
-  "name": "XKeeb",
-  "description": "A browser extension to allow for keyboard and mouse use in XBOX cloud gaming.",
-  "permissions": ["scripting", "activeTab"],
-  "version": "0",
-  "action": {},
-  "background": {
-    "service_worker": "background.js"
+"browser_specific_settings": {
+  "gecko": {
+    "id": "@IDKPleaseWork",
+    "strict_min_version": "58.0"
   }
 }
